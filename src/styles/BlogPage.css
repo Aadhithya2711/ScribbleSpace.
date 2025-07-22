@@ -1,0 +1,49 @@
+.blog-page{
+  background-color: #EDEDED;
+}
+.containerBox {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.Note-img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 700px;  object-fit: cover;
+  display: block;
+}
+
+.headline-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;     /* Stack headlines vertically */
+  justify-content: center;    /* Vertical centering */
+  align-items: flex-start;    /* Align text to the left */
+
+  padding-left: 5%;           /* Horizontal spacing from the left edge */
+}
+
+.headline {
+  color: whitesmoke;
+  font-size: clamp(1rem, 3vw, 2.5rem);
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+.cards-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.card{
+  border: black 1px solid;
+}
